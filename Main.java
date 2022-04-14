@@ -38,3 +38,4 @@ class Main {
     ala2.exibiRelatorio();
   }
 }
+
