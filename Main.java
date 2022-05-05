@@ -24,17 +24,24 @@ class Main {
     Ala ala1 = new Ala(01 , "Ortopedia" , quarto1);
     Ala ala2 = new Ala(02 , "Ortopedia2" , quarto2);
     
+    System.out.println("\nMaximo e Minimo de dias internados:\n");
     System.out.println("Max dias internado: " +quarto1.retornarMaxDiasInter());
     System.out.println("Min dias internados: " +quarto1.retornarMinDiasInter());
 
+    System.out.println("\nRelatorio do Paciente\n");
     paciente01.exibirRelatorioPac();
+    System.out.println("\nRelatorio do Paciente\n");
     paciente04.exibirRelatorioPac();
 
-    quarto1.verificaQuarto();
-      
+    System.out.println("\nTem Cama vazia?\n");
+    quarto2.verificaQuarto();
+
+    System.out.println("\nDias de internação do Paciente\n");
     System.out.println(quarto1.diasPorPaciente(paciente01.retornarDiasInterndo()));
 
+    System.out.println("\nRelatorio ALA\n");
     ala1.exibiRelatorio();
+    System.out.println("\nRelatorio ALA\n");
     ala2.exibiRelatorio();
   }
 }

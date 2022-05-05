@@ -45,7 +45,7 @@ int diasPorPaciente(int num){
 }
 
 void verificaQuarto(){
-  if(paciente01 == null || paciente02 == null || paciente01 == null){
+  if(paciente01 == null || paciente02 == null || paciente03 == null){
       System.out.println("Exite cama vazias");
   }else
     System.out.println("Não há espaço");

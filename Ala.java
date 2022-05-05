@@ -11,7 +11,8 @@ class Ala {
 
   
   void exibiRelatorio(){
-    System.out.println("ID ALA :" + id + "| Especialidade:" + especialidade + "|Quarto:" + quarto.numero);
+    System.out.println("ID ALA :" + id + "| Especialidade:" + especialidade + "|Quarto:");
+    quarto.verificaQuarto();
   }
 }
 
